@@ -1,0 +1,300 @@
+@charset "utf-8";
+@font-face {
+  font-family: "GapyeongHanseokbong-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/GapyeongHanseokbong-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+.banner3 > h1 {
+  font-family: "Dokrip", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.header {
+  width: 100%;
+  background-color: #111111;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+}
+h1 {
+  font-family: "GapyeongHanseokbong-Bold";
+  margin: 10px 10px;
+}
+p {
+  margin-bottom: 50px;
+}
+.nav {
+  width: 80%;
+  margin: auto;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.logo {
+  padding-bottom: 30px;
+  text-align: center;
+}
+.mine {
+  width: 100%;
+}
+.banner img {
+  width: 100%;
+  display: block;
+  max-width: 1390px;
+}
+.swiper-slide img {
+  width: 100%;
+  display: block;
+}
+.banner2 {
+  width: 100%;
+  padding: 5%;
+  background: url(./img/성심당/imgi_15_m_about_bg.jpg) no-repeat center;
+  position: relative;
+  background-size: cover;
+}
+.banner2 h1 {
+  margin: 0;
+}
+.banner2-content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 3%;
+}
+.ba2-content-img {
+  width: 50%;
+  max-width: 700px;
+}
+.ba2-content-img img {
+  width: 100%;
+  display: block;
+}
+.banner2-txt {
+  width: 50%;
+  text-align: left;
+}
+
+.banner2-txt p {
+  font-size: small;
+}
+
+.banner3 {
+  position: relative;
+  width: 100%;
+  height: 550px;
+  background: url(./img/성심당/12.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed; /* 고정 */
+  overflow: hidden;
+}
+.banner3 img {
+  /* height: 380px; */
+  max-width: 1390px;
+  width: 100%;
+  display: block;
+}
+.banner3 h1 {
+  padding-top: 250px;
+  color: #fff;
+}
+
+.contents {
+  width: 100%;
+  /* height: 817px; */
+  background-color: #f8f0e5;
+
+  padding-top: 50px;
+  text-align: center;
+  /* width: calc(100% / 3); */
+  margin: auto;
+  gap: 30px;
+}
+
+.contents > h1 {
+  margin-bottom: 0px;
+}
+h3 {
+  font-size: medium;
+  line-height: 3;
+}
+.contents > p {
+  margin-bottom: 35px;
+  line-height: 3;
+}
+.contants-inner {
+  max-width: 1390px;
+  margin: auto;
+}
+.contents ul {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  gap: 20px;
+  margin: auto;
+}
+
+.contents ul li {
+  width: calc(100% / 4);
+}
+.contents ul li img {
+  width: 100%;
+}
+.contents_txt1 p {
+  margin-bottom: 70px;
+  font-size: small;
+}
+.contents_txt1 h6 {
+  padding-top: 20px;
+}
+.contents2 ul li {
+  width: calc(100% / 3);
+}
+.contents2 ul li img {
+  width: 100%;
+  display: block;
+}
+
+.day6 .img1-1 a {
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+}
+.last_main {
+  padding-top: 50px;
+  width: 100%;
+  /* height: 1528.35px; */
+  background-color: #f8f0e5;
+  padding-bottom: 200px;
+}
+.img_a {
+  display: flex;
+  gap: 2%;
+  width: 90%;
+  max-width: 1390px;
+  margin: auto;
+}
+
+.img_a,
+.img_c,
+.img_b {
+  /* padding-top: 1%; */
+  display: flex;
+  gap: 2%;
+  width: 90%;
+  max-width: 1390px;
+  margin: auto;
+}
+.img_b a {
+  width: calc(100% / 4);
+  overflow: hidden;
+}
+.img_a a {
+  width: calc(100% / 4);
+  overflow: hidden;
+}
+.img_c a {
+  width: calc(100% / 4);
+  overflow: hidden;
+}
+.img_b a img,
+.img_c a img,
+.img_a a img {
+  width: 100%;
+  /* height: 215px; */
+}
+.img_c {
+  /* padding-top: 2%; */
+  display: flex;
+  gap: 2%;
+  width: 90%;
+  max-width: 1390px;
+  margin: auto;
+}
+.section {
+  padding-top: 50px;
+}
+/* .footer {
+  width: 100%;
+  background-color: #2e2d2d;
+  display: flex;
+  justify-content: space-between; /* 좌우로 나눔 */
+/* align-items: center; /* 세로 가운데 정렬 */
+/* 여백 */
+/* padding-left: 100px;
+} */
+
+/* .logo_ft {
+  /* 로고 이미지 크기 조정 가능 */
+/* width: 100%;
+  height: auto;
+} */
+/* 
+.logo_ft h2 {
+  color: #8888;
+  font-weight: 400;
+}
+.logo_ft h2 span {
+  color: #dbab72;
+  font-weight: 400;
+} */
+
+.footer {
+  width: 100%;
+  padding-bottom: 150px ;
+  background-color: #151515;
+}
+
+.logo_ft {
+  width: 40%;
+  text-align: left;
+
+}
+.logo_ft > img {
+  background-color: rgb(10, 214, 214);
+  width: 100%;
+}
+.logo_ft p {
+  color: #888888;
+  width: 670px;
+  margin:0 50px;
+  font-size: 16px;
+  
+}
+.logo_ft span {
+  color: #dbab72;
+}
+.logo-img img{
+  width: 150px;
+  margin:50px 50px;
+}
+.logo_ft logo_txt2 p{
+  color: #888888;
+}
+.contants-inner h1{
+  font-family: 'Noto Sans KR', 'Montserrat', sans-serif;
+  margin-right:0;
+  text-align: right;
+}
