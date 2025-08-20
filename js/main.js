@@ -33,4 +33,7 @@ window.addEventListener("load", function () {
     });
     hBg.classList.remove("open");
   });
+
+   const menus = this.document.querySelectorAll(".menu");
+  const  ABOUT_US = this.document.querySelectorAll(".ABOUT_US");
 });
