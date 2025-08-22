@@ -39,12 +39,44 @@ p {
 }
 .nav {
   width: 80%;
+  height: 50px;
   margin: auto;
 }
 .menu {
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+.menu a:hover {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.menu > li {
+  width: calc(100% / 5);
+  background-color: #0e0d0d
+}
+.menu > li > a {
+  width: 100%;
+  position: relative;
+  line-height: 50px;
+}
+
+/* 서브메뉴 */
+.submenu {
+  position: relative;
+  width: 100%;
+  color: #fff;
+  background-color: #5c5353;
+  z-index: 9999;
+  padding: 20px 0;
+  display: none;
+}
+.submenu >li{
+  padding: 10px 0;
+}
+.menu > li:hover .submenu {
+  display: block;
 }
 .logo {
   padding-bottom: 30px;
@@ -173,7 +205,7 @@ h3 {
   display: block;
 }
 
-.day6 ul  {
+.day6 ul {
   display: flex;
   /* flex-direction: column; */
   gap: 1%;
@@ -262,33 +294,32 @@ h3 {
   padding-bottom: 150px;
   background-color: #151515;
 }
-.footer-wrap{
+.footer-wrap {
   display: flex;
   justify-content: space-between;
 }
 .logo_ft {
   width: 40%;
   text-align: left;
-
 }
-.logo_txt1{
+.logo_txt1 {
   margin-top: 10px;
 }
 .logo_ft .logo_txt1 p {
   color: #888888;
   font-size: 16px;
-  margin:0;
+  margin: 0;
 }
 .logo_ft span {
   color: #dbab72;
 }
-.logo-img{
+.logo-img {
   padding: 20px 0;
-   width: 150px;
-margin-right: auto;
+  width: 150px;
+  margin-right: auto;
 }
 .logo-img img {
- width: 100%;
+  width: 100%;
   /* margin: 50px 50px; */
 }
 .logo_ft .logo_txt2 p {
@@ -306,13 +337,8 @@ margin-right: auto;
   font-weight: 500;
   color: #dbab72;
 }
-.logo-TEL p{
+.logo-TEL p {
   font-size: 16px;
   color: #888888;
   margin: 0;
-}
-.ABOUT_us ul{
-  display: flex;
-  flex-direction: column;
-
 }
